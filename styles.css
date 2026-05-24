@@ -237,10 +237,12 @@ section { position: relative; }
 }
 .hero__title {
   margin: 0;
+  line-height: 0.85;
 }
 .hero__title .row {
   display: block;
   position: relative;
+  line-height: 0.85;
 }
 .hero__title .accent {
   font-style: italic;
@@ -1459,6 +1461,8 @@ body[data-voice="modernist"] .display {
   line-height: 0.92;
   font-style: normal;
 }
+body[data-voice="modernist"] .hero__title,
+body[data-voice="modernist"] .hero__title .row { line-height: 0.85; }
 body[data-voice="modernist"] .display em {
   font-style: normal;
   font-weight: 800;
